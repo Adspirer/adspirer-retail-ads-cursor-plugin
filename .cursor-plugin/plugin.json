@@ -1,0 +1,35 @@
+{
+  "name": "adspirer-retail-ads",
+  "displayName": "Adspirer Retail Ads",
+  "version": "1.0.0",
+  "description": "Retail advertising agent for Amazon and Walmart. Research products and keywords, create campaigns, analyze sales, and optimize ad spending—with your approval.",
+  "author": {
+    "name": "Adspirer",
+    "email": "support@adspirer.com"
+  },
+  "homepage": "https://www.adspirer.com",
+  "repository": "https://github.com/Adspirer/adspirer-retail-ads-cursor-plugin",
+  "license": "MIT",
+  "logo": "assets/icon.png",
+  "keywords": [
+    "Amazon Ads",
+    "Walmart Connect",
+    "retail media",
+    "Sponsored Products",
+    "Sponsored Brands",
+    "Sponsored Display",
+    "ACoS",
+    "ROAS"
+  ],
+  "category": "productivity",
+  "tags": [
+    "advertising",
+    "retail-media",
+    "ecommerce",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "agents": "./agents/",
+  "rules": "./rules/",
+  "mcpServers": "./mcp.json"
+}
