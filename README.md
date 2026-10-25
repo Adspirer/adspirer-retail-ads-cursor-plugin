@@ -1,6 +1,8 @@
 # Adspirer Retail Ads for Cursor
 
-Retail advertising agent for Amazon and Walmart. Research products and keywords, create campaigns, analyze sales, and optimize ad spending—with your approval.
+Retail ads agent for Amazon and Walmart. Research keywords, create campaigns, analyze ACoS and ROAS, and optimize ad spend—with your approval.
+
+Use **Amazon Ads / Amazon PPC** and **Walmart Connect / Walmart Ads** from Cursor for retail media and ecommerce advertising workflows. [Explore Adspirer Retail Media](https://www.adspirer.com/retail-media).
 
 Company-owned Cursor distribution package using **https://mcp.adspirer.com/retail-ads**.
 Requested category: **Productivity**; Cursor controls final placement and verification.
@@ -18,7 +20,22 @@ Supported SB/SV asset and review operations do not imply end-to-end campaign cre
 
 ## Connect in Cursor
 
-Use Cursor's supported local plugin workflow before marketplace publication, or configure the existing MCP endpoint directly in Cursor using mcp.json.
+Before marketplace publication, copy this repository's plugin files (including the hidden `.cursor-plugin` directory, but not `.git`) into `~/.cursor/plugins/local/adspirer-retail-ads`. Restart Cursor or run **Developer: Reload Window**, then open **Customize** and verify 11 skills, one agent, one rule and the MCP connection. Local plugin imports must be allowed by your organization. A symlink to a checkout outside the local-plugin directory is not supported by Cursor's documented workflow.
+
+For MCP-only access, merge this entry into your existing Cursor MCP configuration without replacing other servers:
+
+```json
+{
+  "mcpServers": {
+    "adspirer-retail-ads": {
+      "type": "http",
+      "url": "https://mcp.adspirer.com/retail-ads"
+    }
+  }
+}
+```
+
+MCP-only setup exposes tools but does not install the packaged skills, agent or rule. Use one connection path at a time to avoid duplicate servers.
 Complete the browser authorization flow, then connect the relevant ad accounts at https://adspirer.ai/connections.
 After marketplace approval, install the published Adspirer Retail Ads listing. Do not assume a listing exists from this repository alone.
 An Adspirer account and applicable service plan/access are required; ad-platform fees and usage limits apply.
@@ -69,3 +86,4 @@ Public marketplace publication/re-indexing is a separate Cursor review step.
 - Terms: https://www.adspirer.com/terms
 
 See [REVIEW.md](REVIEW.md) for remaining validation gates.
+See [the submission audit](docs/submission-audit.md) for comparison with recent Cursor examples, search metadata and known limitations.
