@@ -9,7 +9,8 @@ assert.equal(m.repository, 'https://github.com/Adspirer/adspirer-retail-ads-curs
 assert.match(m.version, /^\d+\.\d+\.\d+$/);
 assert.equal(m.homepage, 'https://www.adspirer.com/retail-media');
 assert.ok(read('README.md').split('\n\n').includes(m.description), 'README introduction must match manifest');
-assert.ok(m.description.startsWith('Retail ads agent for Amazon and Walmart.'));
+assert.ok(m.description.startsWith('Amazon & Walmart retail advertising.'));
+assert.equal(m.category, 'data_and_analytics');
 for (const term of ['retail ads', 'Amazon Ads', 'Amazon PPC', 'Walmart Connect', 'Walmart Ads']) assert.ok(m.keywords.includes(term), term);
 assert.notEqual(m.minClientVersions?.cursor, 'never', 'Do not hide this Cursor plugin');
 for (const p of [m.logo, m.skills, m.agents, m.rules, m.mcpServers]) {

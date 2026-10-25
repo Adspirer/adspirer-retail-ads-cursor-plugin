@@ -1,11 +1,12 @@
 # Adspirer Retail Ads for Cursor
 
-Retail ads agent for Amazon and Walmart. Research keywords, create campaigns, analyze ACoS and ROAS, and optimize ad spend—with your approval.
+Amazon & Walmart retail advertising. Analyze ad performance, track ACoS and ROAS, research keywords, and create and optimize campaigns with your approval.
 
 Use **Amazon Ads / Amazon PPC** and **Walmart Connect / Walmart Ads** from Cursor for retail media and ecommerce advertising workflows. [Explore Adspirer Retail Media](https://www.adspirer.com/retail-media).
 
 Company-owned Cursor distribution package using **https://mcp.adspirer.com/retail-ads**.
-Requested category: **Productivity**; Cursor controls final placement and verification.
+Requested category: **Data & Analytics**; Cursor controls final placement and verification.
+Retail campaign reporting, keyword and item analysis, ACoS/ROAS measurement, and budget insights make this a natural fit for Data & Analytics.
 This repository is not a marketplace approval or submission.
 
 ## What it includes

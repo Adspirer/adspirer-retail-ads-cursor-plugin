@@ -1,8 +1,8 @@
 {
   "name": "adspirer-retail-ads",
   "displayName": "Adspirer Retail Ads",
-  "version": "1.0.1",
-  "description": "Retail ads agent for Amazon and Walmart. Research keywords, create campaigns, analyze ACoS and ROAS, and optimize ad spend—with your approval.",
+  "version": "1.0.2",
+  "description": "Amazon & Walmart retail advertising. Analyze ad performance, track ACoS and ROAS, research keywords, and create and optimize campaigns with your approval.",
   "author": {
     "name": "Adspirer",
     "email": "support@adspirer.com"
@@ -26,7 +26,7 @@
     "ACoS",
     "ROAS"
   ],
-  "category": "productivity",
+  "category": "data_and_analytics",
   "tags": [
     "retail-ads",
     "amazon-ads",

@@ -29,7 +29,7 @@ These examples demonstrate accepted source patterns, not proof that every merged
 
 ## Search discovery
 
-Name: Adspirer Retail Ads. Preview: Retail ads agent for Amazon and Walmart.
+Name: Adspirer Retail Ads. Preview: Amazon & Walmart retail advertising.
 Keywords include retail ads, retail advertising, Amazon Ads, Amazon PPC, Walmart Connect, Walmart Ads, retail media and ecommerce advertising, plus real campaign/measurement terms.
 README and GitHub About should use consistent descriptions, a public retail-product homepage and relevant topics.
 All eleven skills retain the requested adspirer-retail-ads- prefix. Their descriptions explain actual tasks; do not repeat synonyms merely to stuff keywords.
@@ -41,7 +41,7 @@ Keep the primary display name stable and request appropriate publisher/category 
 
 1. Run the local installation and OAuth checks in Cursor itself. Our MCP client authentication is not proof of Cursor installation/co-installation behavior.
 2. Run the account/report cases with an agreed account; only run mutation tests after a specific paused-build approval.
-3. Confirm final category with Cursor. Productivity is requested, not assigned by this repository.
+3. Confirm final category with Cursor. Data & Analytics is requested, not assigned by this repository.
 4. Ensure the live storefront matches submitted copy after publication/re-indexing.
 5. The Retail Media homepage is indexable, but its current title emphasizes ChatGPT and Claude. Consider adding Cursor to the website's copy/title in a separate website change; no website was changed here.
 6. Published privacy/terms cover MCP integrations broadly but do not explicitly name Walmart in the retrieved platform lists. Have the policy owner confirm the new integration's coverage and whether those lists need updating; this audit is not a legal certification.
